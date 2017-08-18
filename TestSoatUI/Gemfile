@@ -1,0 +1,28 @@
+source 'https://rubygems.org'
+#ruby=ruby-2.3.0
+#ruby-gemset=automation-tests
+source 'http://devops:59cd9ac28d10cd38@geminabox.youse.io:9292' do
+  gem 'genesis', '0.1.10'
+end
+
+group :test do
+  gem 'cucumber'
+  gem 'site_prism'
+  gem 'rest-client'
+  gem 'capybara'
+  gem 'rspec'
+  gem 'rspec-expectations'
+  gem 'json'
+  gem 'selenium-webdriver'
+  gem 'pry-byebug'
+  gem 'data_magic'
+  gem 'poltergeist'
+  gem 'phantomjs'
+  gem 'activesupport'
+  gem 'chromedriver-helper'
+  gem 'parallel_tests'
+  gem 'report_builder'
+  gem 'byebug'
+  gem 'addressable'
+
+end
